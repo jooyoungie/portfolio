@@ -1,0 +1,58 @@
+@font-face{
+  font-family: "inconsolatareg";
+  font-family: 'Work Sans', sans-serif;
+  src: url(Inconsolata-Regular.ttf);
+}
+
+body{
+  background-color: #fffafa;
+}
+
+
+
+.infoSection{
+  position: fixed;
+  background-color: #fffafa;
+  height: 100vh;
+  width: 35%;
+  z-index: 10;
+  left: 0px;
+  top: 0px;
+}
+
+/*this removes the text decoration (underline, etc)*/
+.infoSection a{
+  text-decoration: none;
+}
+
+.infoSection a:hover{
+  font-weight: bold;
+}
+
+#info{
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 10%;
+}
+
+.imageSection{
+  position: absolute;
+  right: 10%;
+  left: 50%;
+}
+
+.imageSection img{
+margin-bottom: 10%;
+max-width: 100%;
+}
+
+#images{
+z-index: 1;
+margin-top: 10%;
+}
+
+p{
+  font-size: 13pt;
+  line-height: 18pt;
+  font-family: 'Work Sans', sans-serif;
+}
